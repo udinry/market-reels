@@ -1,55 +1,35 @@
 export const todayData = {
   date: "May 17, 2026",
   accent: "#00FF94",
-  bg: "https://images.unsplash.com/photo-1559827291-72ee739d0d9a?w=1080&q=80",
 
-  captions: [
-    { text: "Bhai,",                                    from: 30,   dur: 20 },
-    { text: "Modi ji ka European tour",                 from: 52,   dur: 45 },
-    { text: "alag hi level par chal raha hai! 🔥",      from: 99,   dur: 52 },
-    { text: "Kal Netherlands mein",                     from: 154,  dur: 36 },
-    { text: "semiconductor deal khatam ✅",             from: 192,  dur: 40 },
-    { text: "aaj unka vimaan",                          from: 245,  dur: 36 },
-    { text: "seedha Sweden ke Gothenburg mein!",        from: 283,  dur: 48 },
-    { text: "Swedish Air Force ke ✈️",                  from: 334,  dur: 38 },
-    { text: "fighter jets ke escort ke saath!",         from: 374,  dur: 52 },
-    { text: "Ab Dalal Street ke degens,",               from: 430,  dur: 45 },
-    { text: "asli paisa kahan ban raha hai? 💰",        from: 477,  dur: 50 },
-    { text: "Do sectors par nazar rakho. 👀",           from: 530,  dur: 42 },
-    { text: "Pehla: Defense 🛡️",                       from: 578,  dur: 36 },
-    { text: "Sweden Gripen jets",                       from: 616,  dur: 34 },
-    { text: "India ko bechne ke liye",                  from: 652,  dur: 45 },
-    { text: "mara ja raha hai —",                       from: 699,  dur: 38 },
-    { text: "unki top company ne",                      from: 740,  dur: 38 },
-    { text: "100% factory India mein daali! 🏭",        from: 780,  dur: 50 },
-    { text: "HAL aur BEL ke bulls 📈",                  from: 833,  dur: 42 },
-    { text: "seatbelt baandh lo! 🚀",                   from: 877,  dur: 40 },
-    { text: "Doosra: Semiconductors + AI 💻",           from: 878,  dur: 45 },
-    { text: "Pehle Dutch company se setting ki,",       from: 925,  dur: 50 },
-    { text: "ab Sweden ke saath",                       from: 977,  dur: 36 },
-    { text: "AI corridor bana rahe hain! 🤝",           from: 1015, dur: 50 },
-    { text: "Tata Electronics aur KPIT",                from: 1068, dur: 45 },
-    { text: "watchlist mein daal lo 📋",                from: 1115, dur: 44 },
-    { text: "kyunki yeh log",                           from: 1178, dur: 30 },
-    { text: "real-life mein stonk up",                  from: 1210, dur: 40 },
-    { text: "hone wale hain! 🚀📈",                     from: 1252, dur: 45 },
-    { text: "Portfolio laal hai?",                      from: 1300, dur: 36 },
-    { text: "Ghabrao mat 😌",                           from: 1338, dur: 36 },
-    { text: "Geopolitics samajhoge",                    from: 1480, dur: 40 },
-    { text: "toh agla multibagger",                     from: 1522, dur: 40 },
-    { text: "yahin milega! 💎",                         from: 1564, dur: 40 },
+  headline: "Modi Ji Ki\nDiplomacy On Fire 🔥",
+  subheadline: "Netherlands ke baad Sweden — defense + semiconductor double setting",
+  hook: "Sweden ne Modi ji ko\nfighter jets ke saath\nwelcome kiya! ✈️🇮🇳",
+
+  bullets: [
+    {
+      icon: "✈️",
+      title: "Fighter Jet Escort!",
+      detail: "Swedish Air Force ne PM Modi ka Gothenburg mein welcome kiya!",
+    },
+    {
+      icon: "🛡️",
+      title: "Defense: HAL & BEL",
+      detail: "Gripen jets + 100% fully-owned factory India mein daali!",
+    },
+    {
+      icon: "💻",
+      title: "Semi + AI Corridor",
+      detail: "Tata Electronics aur KPIT — real stonk up incoming.",
+    },
   ],
+
+  watchOut: "Portfolio laal hai toh ghabrao mat — geopolitics samajhoge toh agla multibagger yahin milega! 💎",
+  ctaText: "Follow for daily market moves",
 
   chart: {
     title: "HAL Share Price — This Week (₹)",
     data: [3180, 3250, 3320, 3390, 3450],
     labels: ["Mon", "Tue", "Wed", "Thu", "Fri"],
-    from: 616,
-    dur: 400,
   },
-
-  assets: [
-    { file: "stonks.mp4",       from: 1252, dur: 75, size: 380, pos: "center" as const },
-    { file: "this-is-fine.mp4", from: 1338, dur: 80, size: 340, pos: "br"     as const },
-  ],
 };
