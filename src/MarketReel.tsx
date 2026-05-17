@@ -32,13 +32,13 @@ const MUTED = "#6a6a88";
 const { accent: ACCENT, glow: GLOW, warnBg: WARN_BG } = THEMES[todayData.theme] ?? THEMES.bullish;
 
 // ─── Scene timing (45s = 1350 frames @ 30fps) ────────────────────────────────
-const HOOK_FROM = 0,    HOOK_DUR  = 210;
-const HEAD_FROM = 210,  HEAD_DUR  = 270;
-const B1_FROM   = 480,  B_DUR     = 180;
-const B2_FROM   = 660;
-const B3_FROM   = 840;
-const WARN_FROM = 1020, WARN_DUR  = 180;
-const CTA_FROM  = 1200, CTA_DUR   = 150;
+const HOOK_FROM = 0,    HOOK_DUR  = 240;  // 8s
+const HEAD_FROM = 240,  HEAD_DUR  = 330;  // 11s
+const B1_FROM   = 570,  B_DUR     = 300;  // 10s each
+const B2_FROM   = 870;
+const B3_FROM   = 1170;
+const WARN_FROM = 1470, WARN_DUR  = 390;  // 13s
+const CTA_FROM  = 1860, CTA_DUR   = 240;  // 8s
 
 // ─── Helpers ─────────────────────────────────────────────────────────────────
 function useEntrance(delay = 0) {
