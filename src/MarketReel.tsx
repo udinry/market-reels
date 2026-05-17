@@ -14,7 +14,7 @@ import { todayData } from "./data";
 
 // Load Hind — supports Hindi (Devanagari) + Latin (Hinglish)
 const { fontFamily: HIND } = loadFont("normal", {
-  weights: ["700", "800"],
+  weights: ["700"],
   subsets: ["devanagari", "latin"],
 });
 
@@ -338,9 +338,8 @@ export function MarketReel() {
       <Sequence from={B3_FROM}   durationInFrames={B_DUR}><BulletScene bullet={todayData.bullets[2]} index={2} /></Sequence>
       <Sequence from={WARN_FROM} durationInFrames={WARN_DUR}><WatchOutScene /></Sequence>
       <Sequence from={CTA_FROM}  durationInFrames={CTA_DUR}><CTAScene /></Sequence>
-      {/* GIFs and subtitles render over everything */}
+      {/* GIFs render over everything — subtitles disabled */}
       <GifInserts />
-      <SubtitleOverlay />
     </AbsoluteFill>
   );
 }
