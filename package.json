@@ -5,17 +5,23 @@
   "scripts": {
     "start": "remotion studio",
     "render": "remotion render MarketReel out/reel.mp4",
-    "build": "remotion render MarketReel out/reel.mp4"
+    "build": "remotion render MarketReel out/reel.mp4",
+    "generate": "node scripts/generate.mjs",
+    "auto": "node scripts/generate.mjs",
+    "manual": "node scripts/generate.mjs --manual"
   },
   "dependencies": {
+    "@anthropic-ai/sdk": "^0.96.0",
     "@remotion/cli": "4.0.462",
-    "remotion": "4.0.462",
-    "react": "18.3.4",
-    "react-dom": "18.3.4"
+    "@remotion/google-fonts": "^4.0.462",
+    "dotenv": "^17.4.2",
+    "react": "18.3.1",
+    "react-dom": "18.3.1",
+    "remotion": "4.0.462"
   },
   "devDependencies": {
-    "@types/react": "18.3.4",
-    "@types/react-dom": "18.3.4",
+    "@types/react": "18.3.1",
+    "@types/react-dom": "18.3.1",
     "typescript": "5.4.5"
   }
 }

@@ -7,7 +7,7 @@ export function RemotionRoot() {
     <Composition
       id="MarketReel"
       component={MarketReel}
-      durationInFrames={150}  // 5 seconds at 30fps — adjust to match your voiceover
+      durationInFrames={1350} // 45 seconds at 30fps
       fps={30}
       width={1080}
       height={1920}  // 9:16 vertical for Shorts/Reels/TikTok
