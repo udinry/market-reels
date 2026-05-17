@@ -1,0 +1,21 @@
+{
+  "name": "market-reels",
+  "version": "1.0.0",
+  "description": "Daily market news reels with Remotion",
+  "scripts": {
+    "start": "remotion studio",
+    "render": "remotion render MarketReel out/reel.mp4",
+    "build": "remotion render MarketReel out/reel.mp4"
+  },
+  "dependencies": {
+    "@remotion/cli": "4.0.462",
+    "remotion": "4.0.462",
+    "react": "18.3.4",
+    "react-dom": "18.3.4"
+  },
+  "devDependencies": {
+    "@types/react": "18.3.4",
+    "@types/react-dom": "18.3.4",
+    "typescript": "5.4.5"
+  }
+}
