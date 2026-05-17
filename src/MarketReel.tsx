@@ -338,8 +338,7 @@ export function MarketReel() {
       <Sequence from={B3_FROM}   durationInFrames={B_DUR}><BulletScene bullet={todayData.bullets[2]} index={2} /></Sequence>
       <Sequence from={WARN_FROM} durationInFrames={WARN_DUR}><WatchOutScene /></Sequence>
       <Sequence from={CTA_FROM}  durationInFrames={CTA_DUR}><CTAScene /></Sequence>
-      {/* GIFs render over everything — subtitles disabled */}
-      <GifInserts />
+      {/* GIFs + subtitles disabled — re-enable once local GIF files are added */}
     </AbsoluteFill>
   );
 }
